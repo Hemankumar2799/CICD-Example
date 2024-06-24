@@ -39,6 +39,9 @@
 					<includes>
 						<include>**/*TestRunner.java</include>
 					</includes>
+					<systemPropertyVariables>
+					<cucumber.options>--plugin json:target/cucumber-report.json</cucumber.options>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
